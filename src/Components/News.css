@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    cursor: auto;
+    background-color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+}
+
+.news {
+    width: 80vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10vh;
+    margin-left: 10vw;
+    gap: 10px;
+}
+
+.div1 {
+    width: 50vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    border-radius: 20px;
+}
+
+.div2 {
+    width: 25vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.div3 {
+    width: 25vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.div2-1, .div2-2, .div3-1, .div3-2, .div3-3 {
+    width: 25vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 20px;
+}
+
+/* Flip container */
+.flip-container {
+    perspective: 1000px;
+}
+
+/* Flip inner container */
+.flip-container .flip-card {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+/* Flip effect on hover */
+.flip-container:hover .flip-card {
+    transform: rotateY(180deg);
+}
+
+/* Flip front and back */
+.flip-card .flip-card-front, .flip-card .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 20px;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.flip-card .flip-card-back {
+    transform: rotateY(180deg);
+}
+
+/* Content styling */
+.content {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
+    width: 100%;
+    padding: 10px;
+    border-radius: 0 0 20px 20px;
+}
+
+/* Front faces */
+.div1.flip-card-front {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.685) 0.05%, transparent 99.95%),
+                url('https://media.istockphoto.com/id/1472715214/photo/the-anheuser-busch-washingtons-birthday-parade.jpg?s=612x612&w=0&k=20&c=bwQDN63U3r0L8v5HyYkzVrQF53oTdeqboYG_ReeCi9s=');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    align-items: flex-start; /* Align content to the bottom */
+    justify-content: flex-end; /* Align content to the left */
+}
+
+.div2-1.flip-card-front {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.315) 0.05%, transparent 99.95%),
+                url('news-images/kartikaryan.cms'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    align-items: flex-start; /* Align content to the bottom */
+    justify-content: flex-end;
+    font-size: 20px;
+}
+
+.div2-2.flip-card-front {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.315) 0.05%, transparent 99.95%),
+                url('news-images/imga.avif'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    align-items: flex-start; /* Align content to the bottom */
+    justify-content: flex-end;
+    font-size: 20px;
+}
+
+.div3-1.flip-card-front {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.315) 0.05%, transparent 99.95%),
+                url('https://franchiseindia.s3.ap-south-1.amazonaws.com/uploads/news/fi/mcdonalds-now-in-belagavi-42d3c6cbb6.gif'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    align-items: flex-start; /* Align content to the bottom */
+    justify-content: flex-end;
+    font-size: 20px;
+}
+
+.div3-2.flip-card-front {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.315) 0.05%, transparent 99.95%),
+                url('https://bsmedia.business-standard.com/_media/bs/img/article/2017-03/09/full/1489069170-7189.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    align-items: flex-start; /* Align content to the bottom */
+    justify-content: flex-end;
+    font-size: 20px;
+    text-shadow: black;
+}
+
+.div3-3.flip-card-front {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.315) 0.05%, transparent 99.95%),
+                url('news-images/rashmika.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    align-items: flex-start; /* Align content to the bottom */
+    justify-content: flex-end;
+    font-size: 20px;
+}
