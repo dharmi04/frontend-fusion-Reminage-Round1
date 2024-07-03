@@ -8,7 +8,20 @@ import bottomBun from "../images/img3.png";
 import happymeal from "../images/585ac0cd4f6ae202fedf293e.png";
 import coke from "../images/coke.png";
 import "./Home.css";
-import background from "../images/img4.png";
+const calculateOffset = (index) => {
+  const normalizedScrollY = Math.min(scrollY, maxSeparation); // Cap the scrollY value to maxSeparation
+  const layerSpacing =
+    layers[index].initialSpacing +
+    (layers[index].maxSpacing - layers[index].initialSpacing) *
+      (normalizedScrollY / maxSeparation);
+  
+  // Condition to hide layers based on scroll
+  if (scrollY > 100) {
+    return -9999; // Adjust this value to hide the layers off-screen
+  }
+  
+  return (index - (layersCount - 1) / 2) * layerSpacing;
+};
 
 const Home = () => {
   const [scrollY, setScrollY] = useState(0);
@@ -58,9 +71,14 @@ const Home = () => {
       layers[index].initialSpacing +
       (layers[index].maxSpacing - layers[index].initialSpacing) *
         (normalizedScrollY / maxSeparation);
+    
+    // Condition to hide layers based on scroll
+    if (scrollY > 100) {
+      return -9999; // Adjust this value to hide the layers off-screen
+    }
+    
     return (index - (layersCount - 1) / 2) * layerSpacing;
   };
-
   return (
     <div className="App">
       <div className={`burger-container ${scrollY > 0 ? "center" : ""}`}>
@@ -78,10 +96,10 @@ const Home = () => {
         src={happymeal}
         className={`happymeal ${scrollY > 0 ? "hide" : ""}`}
       />
-      <img
+      {/* <img
         src={background}
         className={`background ${scrollY > 0 ? "expand" : "collapse"}`}
-      />
+      /> */}
       <div className={`text ${slideOut ? "slide-out" : ""}`}>
         <div className="meet">Meet the</div>
         <div className="erena">

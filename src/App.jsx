@@ -8,7 +8,10 @@ import Rotating from './Components/Rotating'
 // import Chickensandwich from './Components/chickensandwich'
 // import Meals from './Components/meals'
 // import Coffee from './Components/coffeeandsweets'
-// import News from './Components/News'
+
+import Example from './Components/Menu'
+import News from './Components/News'
+import Footer from './Components/Footer'
 function App() {
 
 
@@ -17,8 +20,10 @@ function App() {
     <NavBar />
     <Home />
     <Rotating />
-    {/* <Menu /> */}
-    {/* <News/> */}
+   <Example />
+   <News />
+   <Footer />
+    
     </div>
   )
 }
