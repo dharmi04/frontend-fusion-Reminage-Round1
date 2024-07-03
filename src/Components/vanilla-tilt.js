@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 var VanillaTilt = (function () {
     'use strict';
     

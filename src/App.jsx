@@ -1,22 +1,24 @@
 import './App.css'
 import Home from './Components/Home'
 import NavBar from './Components/NavBar'
-import Beveragemenu from './Components/beveragemenu'
-import Friesandsides from './Components/friesandsides'
-import Breakfast from './Components/breakfast'
-import Chickensandwich from './Components/chickensandwich'
-import Meals from './Components/meals'
-import Coffee from './Components/coffeeandsweets'
-import News from './Components/News'
+import Rotating from './Components/Rotating'
+// import Beveragemenu from './Components/beveragemenu'
+// import Friesandsides from './Components/friesandsides'
+// import Breakfast from './Components/breakfast'
+// import Chickensandwich from './Components/chickensandwich'
+// import Meals from './Components/meals'
+// import Coffee from './Components/coffeeandsweets'
+// import News from './Components/News'
 function App() {
 
 
   return (
     <div>
-    {/* <NavBar />
+    <NavBar />
     <Home />
-    <Menu /> */}
-    <News/>
+    <Rotating />
+    {/* <Menu /> */}
+    {/* <News/> */}
     </div>
   )
 }

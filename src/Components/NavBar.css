@@ -5,7 +5,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: black; /* McDonald's Red */
+  background-color: rgb(104, 9, 9); /* McDonald's Red */
   padding: 0.5rem; /* Tailwind p-2 */
   font-family: 'Quicksand', sans-serif;
   height:8vh;
