@@ -9,6 +9,9 @@ export default {
       colors:{
         footer:"#680909",
       },
+      fontFamily: {
+        poppins: ['Poppins', 'sans-serif'],
+      },
     },
   },
   plugins: [],

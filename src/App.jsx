@@ -12,6 +12,8 @@ import Rotating from './Components/Rotating'
 import Example from './Components/Menu'
 import News from './Components/News'
 import Footer from './Components/Footer'
+import Reviews from './Components/Reviews'
+import AboutUs from './Components/AboutUs'
 function App() {
 
 
@@ -20,7 +22,9 @@ function App() {
     <NavBar />
     <Home />
     <Rotating />
+    <AboutUs />
    <Example />
+   <Reviews />
    <News />
    <Footer />
     
