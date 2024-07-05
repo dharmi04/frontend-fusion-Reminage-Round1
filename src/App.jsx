@@ -14,6 +14,7 @@ import News from './Components/News'
 import Footer from './Components/Footer'
 import Reviews from './Components/Reviews'
 import AboutUs from './Components/AboutUs'
+import CustomerEngagement from './Components/CustomerEngagement'
 function App() {
 
 
@@ -24,7 +25,8 @@ function App() {
     <Rotating />
     <AboutUs />
    <Example />
-   <Reviews />
+   <CustomerEngagement />
+   {/* <Reviews /> */}
    <News />
    <Footer />
     
