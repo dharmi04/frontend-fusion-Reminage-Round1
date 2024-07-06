@@ -8,7 +8,7 @@ const AboutUs = () => {
         {/* <h2 className="text-4xl font-bold text-center text-footer mb-8">About Us</h2> */}
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 mb-8 md:mb-0">
-            <img src={image} alt="McDonald's" className="w-full h-[70] rounded-lg shadow-lg" />
+            <img src={image} alt="McDonald's" className="w-auto h-[70vh] rounded-lg shadow-lg" />
           </div>
           <div className="md:w-1/2 md:pl-12 text-white">
             <p className="text-7xl font-poppins font-semibold mb-4">

@@ -26,10 +26,8 @@ function App() {
     <AboutUs />
    <Example />
    <CustomerEngagement />
-   {/* <Reviews /> */}
    <News />
    <Footer />
-    
     </div>
   )
 }

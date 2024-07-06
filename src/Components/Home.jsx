@@ -60,7 +60,7 @@ const Home = () => {
     {
       src: topBun,
       className: "top-bun",
-      initialSpacing: -150,
+      initialSpacing: -140,
       maxSpacing: -250,
     },
   ];

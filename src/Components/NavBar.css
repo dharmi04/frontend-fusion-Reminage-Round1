@@ -5,7 +5,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: rgb(104, 9, 9); /* McDonald's Red */
+  background-color: rgb(0, 0, 0); /* McDonald's Red */
   padding: 0.5rem; /* Tailwind p-2 */
   font-family: 'Quicksand', sans-serif;
   height:8vh;
@@ -58,7 +58,7 @@
 .navbar-button {
   display: flex;
   align-items: center;
-  background-color: #FFC72C; /* McDonald's Yellow */
+  background-color: #ffffff; /* McDonald's Yellow */
   color: #000000; /* Black text */
   padding: 0.75rem 1rem; /* Tailwind px-3 py-2 */
   border-radius: 0.375rem; /* Tailwind rounded */
@@ -67,7 +67,7 @@
 }
 
 .navbar-button:hover {
-  background-color: #DA291C; /* McDonald's Red */
+  background-color: #000000; /* McDonald's Red */
   color: #FFFFFF; /* White text */
 }
 
