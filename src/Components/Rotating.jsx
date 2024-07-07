@@ -79,7 +79,7 @@ const Rotating = () => {
                 <img src="src/assets/HotDog.png" alt="" />
               </div>
               <div className="item" style={{ "--position": 10 }}>
-                <img src="src/assets/CornedBeef.png" alt="" />
+                <img src="src/assets/CornedBeef Comfort.png" alt="" />
               </div>
             </div>
             <div className="content">
