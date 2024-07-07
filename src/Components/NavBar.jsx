@@ -2,7 +2,7 @@
 import React, { useEffect } from 'react';
 import { FaMapMarkerAlt } from 'react-icons/fa';
 import { MdFastfood, MdShoppingCart } from 'react-icons/md';
-import logo from '../assets/Images/MCDLogo.png';
+import logo from '../assets/images/MCDLogo.png';
 // import logo from '../images/MCDLogo.png';
 import './NavBar.css';
 

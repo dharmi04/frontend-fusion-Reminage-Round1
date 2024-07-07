@@ -2,11 +2,11 @@
 /* eslint-disable react/no-unescaped-entities */
 import React, { useEffect, useState } from "react";
 import BurgerLayer from "./BurgerLayer";
-import topBun from "../images/img1.png";
-import lettuce from "../images/img2.png";
-import bottomBun from "../images/img3.png";
-import happymeal from "../images/585ac0cd4f6ae202fedf293e.png";
-import coke from "../images/coke.png";
+import topBun from "../assets/images/img1.png";
+import lettuce from "../assets/images/img2.png";
+import bottomBun from "../assets/images/img3.png";
+import happymeal from "../assets/images/585ac0cd4f6ae202fedf293e.png";
+import coke from "../assets/images/coke.png";
 import "./Home.css";
 const calculateOffset = (index) => {
   const normalizedScrollY = Math.min(scrollY, maxSeparation); // Cap the scrollY value to maxSeparation
