@@ -55,31 +55,31 @@ const Rotating = () => {
                 <img src="src/assets/Burger-1.png" alt="" />
               </div>
               <div className="item" style={{ "--position": 2 }}>
-                <img src="src/assets/Digital Selection Of Delectable Dishes 3D Scene.png" alt="" />
+                <img src="src/assets/Dishes.png" alt="" />
               </div>
               <div className="item" style={{ "--position": 3 }}>
-                <img src="src/assets/Fast Food.png" alt="" />
+                <img src="src/assets/FastFood.png" alt="" />
               </div>
               <div className="item" style={{ "--position": 4 }}>
-                <img src="src/assets/3D Burrito A Of Flavorful Wrap.png" alt="" />
+                <img src="src/assets/FlavorfulWrap.png" alt="" />
               </div>
               <div className="item" style={{ "--position": 5 }}>
-                <img src="src/assets/A Bottle Of Cola 3D Icon.png" alt="" />
+                <img src="src/assets/Cola.png" alt="" />
               </div>
               <div className="item" style={{ "--position": 6 }}>
-                <img src="src/assets/French Fries.png" alt="" />
+                <img src="src/assets/FrenchFries.png" alt="" />
               </div>
               <div className="item" style={{ "--position": 7 }}>
-                <img src="src/assets/A Glass Of Orange Juice 3D Model.png" alt="" />
+                <img src="src/assets/OrangeJuice.png" alt="" />
               </div>
               <div className="item" style={{ "--position": 8 }}>
-                <img src="src/assets/Fried Chicken.png" alt="" />
+                <img src="src/assets/FriedChicken.png" alt="" />
               </div>
               <div className="item" style={{ "--position": 9 }}>
-                <img src="src/assets/Hot Dog.png" alt="" />
+                <img src="src/assets/HotDog.png" alt="" />
               </div>
               <div className="item" style={{ "--position": 10 }}>
-                <img src="src/assets/3D Of Corned Beef Comfort.png" alt="" />
+                <img src="src/assets/CornedBeef.png" alt="" />
               </div>
             </div>
             <div className="content">
