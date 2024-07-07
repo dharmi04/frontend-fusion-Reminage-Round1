@@ -52,34 +52,34 @@ const Rotating = () => {
           <div className="banner">
             <div className="slider" style={{ "--quantity": 10 }}>
               <div className="item" style={{ "--position": 1 }}>
-                <img src="src/assets/images/Burger-1.png" alt="" />
+                <img src="src/assets/Burger-1.png" alt="" />
               </div>
               <div className="item" style={{ "--position": 2 }}>
-                <img src="src/assets/images/Digital Selection Of Delectable Dishes 3D Scene.png" alt="" />
+                <img src="src/assets/Digital Selection Of Delectable Dishes 3D Scene.png" alt="" />
               </div>
               <div className="item" style={{ "--position": 3 }}>
-                <img src="src/assets/images/Fast Food.png" alt="" />
+                <img src="src/assets/Fast Food.png" alt="" />
               </div>
               <div className="item" style={{ "--position": 4 }}>
-                <img src="src/assets/images/3D Burrito A Of Flavorful Wrap.png" alt="" />
+                <img src="src/assets/3D Burrito A Of Flavorful Wrap.png" alt="" />
               </div>
               <div className="item" style={{ "--position": 5 }}>
-                <img src="src/assets/images/A Bottle Of Cola 3D Icon.png" alt="" />
+                <img src="src/assets/A Bottle Of Cola 3D Icon.png" alt="" />
               </div>
               <div className="item" style={{ "--position": 6 }}>
-                <img src="src/assets/images/French Fries.png" alt="" />
+                <img src="src/assets/French Fries.png" alt="" />
               </div>
               <div className="item" style={{ "--position": 7 }}>
-                <img src="src/assets/images/A Glass Of Orange Juice 3D Model.png" alt="" />
+                <img src="src/assets/A Glass Of Orange Juice 3D Model.png" alt="" />
               </div>
               <div className="item" style={{ "--position": 8 }}>
-                <img src="src/assets/images/Fried Chicken.png" alt="" />
+                <img src="src/assets/Fried Chicken.png" alt="" />
               </div>
               <div className="item" style={{ "--position": 9 }}>
-                <img src="src/assets/images/Hot Dog.png" alt="" />
+                <img src="src/assets/Hot Dog.png" alt="" />
               </div>
               <div className="item" style={{ "--position": 10 }}>
-                <img src="src/assets/images/3D Of Corned Beef Comfort.png" alt="" />
+                <img src="src/assets/3D Of Corned Beef Comfort.png" alt="" />
               </div>
             </div>
             <div className="content">
