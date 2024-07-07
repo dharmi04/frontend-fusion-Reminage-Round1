@@ -3,7 +3,7 @@ import image from '../assets/burger.png'
 
 const AboutUs = () => {
   return (
-    <section className="bg-black py-12">
+    <section className="bg-black md:py-12 py-4">
       <div className="container mx-auto px-4">
         {/* <h2 className="text-4xl font-bold text-center text-footer mb-8">About Us</h2> */}
         <div className="flex flex-col md:flex-row items-center">
